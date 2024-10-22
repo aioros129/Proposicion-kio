@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♥Kierez Zer My Novia♥</title>
+    <style>
+        .body {
+            background-color: darkviolet;
+            text-align: center;
+        }
+
+        .body__title {
+            color: rgb(255, 255, 255);
+        }
+
+        .body__img {
+            width: 100%;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <h1 class="body__title">♥Kierez Zer My Novia♥</h1>
+    <img src="https://img.freepik.com/fotos-premium/guapo-anime-japones-ojos-azules-generado-ia_551405-2006.jpg"
+        alt="Foto D MY" class="body__img" />
+    <button id="yes"> 😻Si QuieRo😻</button>
+    <button id="no"> 💔😥Claro que No PerrO💔😥</button>
+
+    <script>
+        const vutonSi = document.getElementById('yes')
+        const vutonNo = document.getElementById('no')
+
+        const zomosNobios = () => {
+            alert('💑Desde Hoy ZoMos NobioZ💑')
+            alert('😱 NuesTra VodA Is MañaNa😱')
+            location.href = 'https://www.youtube.com/watch?v=KNZH-emehxA=15s';
+        }
+
+        const evitarKCRompaMyBobo = () => {
+            vutonNo.style.position = 'absolute';
+            vutonNo.style.top = (Math.random() * window.innerHeight) + 'px';
+            vutonNo.style.left = (Math.random() * window.innerWidth) + 'px';
+        }
+
+        vutonSi.addEventListener('click', zomosNobios);
+        vutonNo.addEventListener('mouseover', evitarKCRompaMyBobo);
+    </script>
+
+</body>
+
+</html>
